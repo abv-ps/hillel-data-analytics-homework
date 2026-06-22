@@ -1,82 +1,86 @@
-# Data Analytics Pro Portfolio
+# Hillel Data Analytics Pro
 
-This repository contains practical assignments and projects completed during the Hillel Data Analytics Pro program.
+Repository containing practical assignments and projects completed during the Hillel Data Analytics Pro program.
 
-The goal of this repository is to demonstrate a structured learning path and practical experience across the full analytics lifecycle: data collection, cleaning, storage, transformation, analysis, visualization, and business interpretation.
+The repository demonstrates a structured learning path covering the complete analytics workflow: data collection, preparation, storage, transformation, analysis, visualization, and business interpretation.
 
-## Key Skills
+## Technologies and Topics
 
 ### Python
 
 * Data processing and cleaning
-* Exploratory data analysis
-* Data transformation
-* Visualization fundamentals
+* File handling
+* APIs and LLM integration
+* Pandas
+* Data visualization
+* Statistical analysis
 
 ### PostgreSQL
 
-* SQL querying
-* Data aggregation
-* Joins and subqueries
-* Common Table Expressions (CTE)
-* Views
+* SQL fundamentals
+* Data preparation
+* Filtering and sorting
+* Aggregations
+* Joins and unions
+* Views, CTEs, and subqueries
 * Window functions
+* Procedures and triggers
 * Database design and normalization
 
 ### MongoDB
 
-* Document-oriented data storage
+* Querying document databases
 * Aggregation pipelines
-* Query optimization basics
 
 ### Power BI
 
 * Data modeling
 * Power Query
-* DAX
+* DAX calculations
 * Interactive dashboards
 * Business reporting
 
 ### Tableau
 
-* Interactive visualizations
-* Dashboard design
 * Calculated fields
-* LOD expressions
-
-### Statistics and Experimentation
-
-* Descriptive statistics
-* Hypothesis testing
-* A/B testing concepts
-* Business metric interpretation
+* Level of Detail (LOD) expressions
+* Data visualization
 
 ## Capstone Project
 
-### PetMatch – A/B Testing Analytics Project
+### PetMatch A/B Testing Analytics Project
 
-End-to-end analytics project built around an A/B testing scenario for a fictional pet adoption platform.
+End-to-end analytical project based on an A/B testing scenario for a fictional pet adoption platform.
 
-Project stages:
+The project combines:
 
-1. Data preparation and cleaning using Python
-2. Database design and preparation in PostgreSQL
+* Python for data preparation and validation
+* PostgreSQL for database design and analytical views
+* Power BI for interactive reporting and visualization
+* Statistical analysis and business interpretation
+
+Project workflow:
+
+1. Data preparation and cleaning
+2. Database creation and transformation
 3. Analytical data modeling
-4. A/B test analysis
-5. Interactive reporting in Power BI
+4. A/B test evaluation
+5. Dashboard development
 6. Business conclusions and recommendations
-
-The project demonstrates the complete analytical workflow from raw data to business insights.
 
 ## Repository Structure
 
-* Python Fundamentals
-* PostgreSQL & Database Design
-* MongoDB
-* Power BI
-* Tableau
-* Capstone Project
+| Module | Description                                                         |
+| ------ | ------------------------------------------------------------------- |
+| 01–11  | Python fundamentals, data processing, visualization, and statistics |
+| 12–20  | PostgreSQL querying, analytics, and database design                 |
+| 21     | MongoDB                                                             |
+| 22–27  | Power BI                                                            |
+| 24     | Capstone Project (PetMatch A/B Testing)                             |
+| 28–29  | Tableau                                                             |
 
-## About
+## Notes
 
-This repository serves both as a learning archive and as a portfolio of practical analytics work completed during the Data Analytics Pro program.
+All source code, SQL scripts, dashboards, and analytical materials in this repository were created as part of practical coursework and personal learning activities.
+
+Educational task descriptions, screenshots, or proprietary course materials are intentionally excluded.
